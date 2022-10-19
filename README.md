@@ -34,9 +34,10 @@ This repo shows basic set up of the CI/CD Workflow with Github Actions
 - Reusable action workflows, that can be called from previous one
 - Deploy to Prod workflow also requires manual approval in addition, after all previous checks and builds were completed and passed
 - The application is deployed to AWS using ElastickBeanstalk service
-Url links for Dev and Prod apps basic functionality response are available here:
-http://test-environment.eba-kupdirkf.us-east-1.elasticbeanstalk.com/
-http://productionenv-env.eba-j3j3u7ux.us-east-1.elasticbeanstalk.com/
+Url links for Dev and Prod apps basic functionality response are available here
+
+dev - http://test-environment.eba-kupdirkf.us-east-1.elasticbeanstalk.com/
+prod - http://productionenv-env.eba-j3j3u7ux.us-east-1.elasticbeanstalk.com/
 - Application's built versions are stored as artifacts in the Docker Hub
 Image is available here 
 https://hub.docker.com/repository/docker/ksusha/dockerhub-actions-eks
